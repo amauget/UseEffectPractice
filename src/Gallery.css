@@ -1,0 +1,10 @@
+.resultsContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px; /* spacing between grid items */
+  background:black;
+}
+img{
+  max-width: 8vw;
+  min-width: 5vw;
+}
